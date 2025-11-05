@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 40px;
+  }
+  
+  h1 {
+    font-family: Chalkboard;
+    color: #0073e6;
+    border: solid 5px solid #0b7dee;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    color: #00ade6;
+  }
+  
+  form {
+    background-color: #787877;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+  }
+  
+  input, select {
+    margin: 5px;
+    padding: 5px;
+  }

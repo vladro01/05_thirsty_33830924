@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Survey Results - <%= shopName %></title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <h1>Thanks for your feedback, <%= formData.first %>!</h1>
+    <h2>Your responses</h2>
+    <ul>
+      <li>Email: <%= formData.email %></li>
+      <li>Age: <%= formData.age %></li>
+      <li>Drink preference: <%= formData.drink %></li>
+      <li>Student: <%= formData.isStudent ? "Yes" : "No" %></li>
+    </ul>
+  </body>
+</html>
